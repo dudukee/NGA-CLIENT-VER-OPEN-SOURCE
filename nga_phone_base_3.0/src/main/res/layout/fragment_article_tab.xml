@@ -48,6 +48,13 @@
         android:layout_gravity="end|bottom"
         app:layout_behavior="sp.phone.view.behavior.ScrollAwareFamBehavior">
 
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="@string/goto_floor"
+            app:srcCompat="@drawable/btn_ic_send"
+            tools:ignore="VectorDrawableCompat" />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_post"

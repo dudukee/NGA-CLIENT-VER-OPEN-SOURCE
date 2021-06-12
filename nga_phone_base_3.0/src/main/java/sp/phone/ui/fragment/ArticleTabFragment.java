@@ -176,6 +176,12 @@ public class ArticleTabFragment extends BaseRxFragment {
         mFam.collapse();
     }
 
+    @OnClick(R.id.fab_goto)
+    public void gotoPage() {
+        mFam.collapse();
+        createGotoDialog();
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
